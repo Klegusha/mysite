@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.preview {
+  background-image: url(https://www.lapa.ninja/lab/atlas/img/banner-bk.jpg);
+  height: 570px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.preview .container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 56px;
+}
+
+.preview .container h1 {
+  font-size: 63px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 69.3px;
+  margin: 42px 0;
+}
+
+.preview header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.preview header a {
+  color: white;
+  font-size: 17.5px;
+  cursor: pointer;
+}
+
+.preview header a:hover {
+  text-decoration: underline;
+}
+
+.preview header img {
+  width: 80px;
+  height: 80px;
+}
+
+.preview p {
+  font-size: 17.5px;
+  color: white;
+  line-height: 24px;
+}
+
+.preview .buttonn {
+  color: #192440;
+  background: #00FFAD;
+  border-radius: 22px;
+  padding: 13px 30px;
+  margin: 21px 0px;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.preview .buttonn:hover {
+  color: white;
+}
+
+.preview .netr {
+  padding: 32px 0;
+}
+
+.prot {
+  margin: 48px 25.5px;
+  padding: 8px 15px;
+}
+
+.prot .protect a {
+  color: #292B2C;
+  font-size: 44.8px;
+  padding: 100px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.prot .protect .column {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.prot .protect .sc {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.prot .protect .img1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 54.5px 0px 54.4px;
+}
+
+.prot .protect .p1 {
+  color: black;
+  font-size: 16px;
+}
+
+.pricing {
+  height: 100vh;
+  color: #292b2c;
+  margin: 0 auto;
+  max-width: 1050px;
+  text-align: center;
+}
+
+.pricing h1 {
+  color: black;
+  font-size: 39px;
+  line-height: initial;
+  font-weight: bold;
+}
+
+.pricing .pricing__container {
+  margin-top: 56px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr, 3;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.pricing .pricing__container li {
+  padding: 5px 0;
+}
+
+.pricing .pricing__container .pricing_container_item_0 a {
+  border: 2px solid #192440 !important;
+  color: #192440;
+  border-radius: 22px !important;
+  padding: 12px 30px !important;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+.pricing .pricing__container .pricing_container_item_0 ul {
+  list-style: none;
+}
+
+.pricing .pricing__container .pricing_container_item_1 {
+  background-color: #192440;
+}
+
+.pricing .pricing__container .pricing_container_item_1 h2 {
+  color: white;
+}
+
+.pricing .pricing__container .pricing_container_item_1 p {
+  color: white;
+}
+
+.pricing .pricing__container .pricing_container_item_1 ul {
+  color: white;
+  list-style: none;
+}
+
+.pricing .pricing__container .pricing_container_item_1 a {
+  background: #00FFAD;
+  color: #192440;
+  text-decoration: none;
+  border-radius: 22px;
+  padding: 12px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+}
+
+.companies {
+  display: -ms-grid;
+  display: grid;
+  grid-template: rows;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  padding: 4rem 2rem;
+  background-color: #eceeef;
+}
+
+.copyright {
+  background: #192440;
+}
+
+.copyright .copytxt {
+  margin: 8px 0;
+  padding: 0px 15px;
+  display: inline-block;
+}
+
+.copyright .ico {
+  display: block;
+}
+
+.copyright .ico i {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  text-align: center !important;
+  border-radius: 99%;
+  margin-left: 0.5rem !important;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.look .comp .h3 .zag {
+  color: black !important;
+  font-weight: bold;
+}
+
+.look .comp .h3 p {
+  color: black !important;
+}
+
+.look .comp .h3 .compu {
+  width: 100%;
+  max-width: 400px;
+}
+/*# sourceMappingURL=styles.css.map */

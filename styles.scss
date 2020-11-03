@@ -1,0 +1,204 @@
+                        body {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        }
+                        
+                        .preview {
+                            background-image: url(https://www.lapa.ninja/lab/atlas/img/banner-bk.jpg);
+                            height: 570px;
+                            object-fit: cover;
+                            .container {
+                                max-width: 1140px;
+                                margin: 0 auto;
+                                padding-top: 56px;
+                                h1 {
+                                    font-size: 63px;
+                                    color: white;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    line-height: 69.3px;
+                                    margin: 42px 0;
+                                }
+                            }
+                            header {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                a {
+                                    color: white;
+                                    font-size: 17.5px;
+                                    cursor: pointer;
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                                img {
+                                    width: 80px;
+                                    height: 80px;
+                                }
+                            }
+                            p {
+                                font-size: 17.5px;
+                                color: white;
+                                line-height: 24px;
+                            }
+                            .buttonn {
+                                color: #192440;
+                                background: #00FFAD;
+                                border-radius: 22px;
+                                padding: 13px 30px;
+                                margin: 21px 0px;
+                                text-decoration: none;
+                                font-weight: 700;
+                                display: inline-block;
+                                transition-duration: 0.4s;
+                                &:hover {
+                                    color: white;
+                                }
+                            }
+                            .netr {
+                                padding: 32px 0;
+                            }
+                        }
+                        
+                        .prot {
+                            margin: 48px 25.5px;
+                            padding: 8px 15px;
+                            .protect {
+                                a {
+                                    color: #292B2C;
+                                    font-size: 44.8px;
+                                    padding: 100px;
+                                    text-align: center;
+                                    font-weight: 700;
+                                }
+                                .column {
+                                    display: grid;
+                                    grid-template-columns: 1fr 1fr 1fr;
+                                }
+                                .sc {
+                                    font-size: 24px;
+                                    font-weight: 500;
+                                    text-align: center;
+                                }
+                                .img1 {
+                                    align-items: center;
+                                    margin: 0px 54.5px 0px 54.4px;
+                                }
+                                .p1 {
+                                    color: black;
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                        
+                        .pricing {
+                            height: 100vh;
+                            color: #292b2c;
+                            margin: 0 auto;
+                            max-width: 1050px;
+                            text-align: center;
+                            h1 {
+                                color: black;
+                                font-size: 39px;
+                                line-height: initial;
+                                font-weight: bold;
+                            }
+                            .pricing__container {
+                                margin-top: 56px;
+                                display: -ms-grid;
+                                display: grid;
+                                -ms-grid-columns: (1fr, 3);
+                                grid-template-columns: repeat(3, 1fr);
+                                li {
+                                    padding: 5px 0;
+                                }
+                                .pricing_container_item_0 {
+                                    a {
+                                        border: 2px solid #192440 !important;
+                                        color: #192440;
+                                        border-radius: 22px !important;
+                                        padding: 12px 30px !important;
+                                        text-decoration: none;
+                                        cursor: pointer;
+                                        display: block;
+                                    }
+                                    ul {
+                                        list-style: none;
+                                    }
+                                }
+                                .pricing_container_item_1 {
+                                    background-color: #192440;
+                                    h2 {
+                                        color: white;
+                                    }
+                                    p {
+                                        color: white;
+                                    }
+                                    ul {
+                                        color: white;
+                                        list-style: none;
+                                    }
+                                    a {
+                                        background: #00FFAD;
+                                        color: #192440;
+                                        text-decoration: none;
+                                        border-radius: 22px;
+                                        padding: 12px 30px;
+                                        font-weight: bold;
+                                        cursor: pointer;
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        .companies {
+                            display: grid;
+                            grid-template: rows;
+                            grid-template-columns: repeat(6, 1fr);
+                            padding: 4rem 2rem;
+                            background-color: #eceeef;
+                        }
+                        
+                        .copyright {
+                            background: #192440;
+                            .copytxt {
+                                margin: 8px 0;
+                                padding: 0px 15px;
+                                display: inline-block;
+                            }
+                            .ico {
+                                display: block;
+                                i {
+                                    width: 40px;
+                                    height: 40px;
+                                    background-color: white;
+                                    text-align: center!important;
+                                    border-radius: 99%;
+                                    margin-left: .5rem!important;
+                                    cursor: pointer;
+                                    margin-top: 20px;
+                                }
+                            }
+                        }
+                        
+                        .look {
+                            .comp {
+                                .h3 {
+                                    .zag {
+                                        color: black!important;
+                                        font-weight: bold;
+                                    }
+                                    p {
+                                        color: black!important;
+                                    }
+                                    .compu {
+                                        width: 100%;
+                                        max-width: 400px;
+                                    }
+                                }
+                            }
+                            .ipad {}
+                        }
