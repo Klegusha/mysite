@@ -3,6 +3,7 @@
                             padding: 0;
                             box-sizing: border-box;
                             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            display: flex;
                         }
                         
                         .preview {
@@ -182,23 +183,4 @@
                                     margin-top: 20px;
                                 }
                             }
-                        }
-                        
-                        .look {
-                            .comp {
-                                .h3 {
-                                    .zag {
-                                        color: black!important;
-                                        font-weight: bold;
-                                    }
-                                    p {
-                                        color: black!important;
-                                    }
-                                    .compu {
-                                        width: 100%;
-                                        max-width: 400px;
-                                    }
-                                }
-                            }
-                            .ipad {}
                         }
